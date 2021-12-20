@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+% Al subrayar con el comando \hl{} teniendo estos paquetes, se pone en amarillo. Si subrayamos con el comando \underline{} subraya normal.
+\usepackage{xcolor}
+\usepackage{soul}
+
+% Para seleccionar los márgenes.
+\usepackage[a4paper]{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+
+\author{Alejandro Matía}
+\date{February 2020}
+
+\begin{document}
+
+% Para poner el título al tamaño deseado.
+\font\myfont=cmr12 at 32pt
+\title{{\myfont Método de eliminación nuclear}}
+
+\maketitle
+
+\begin{itemize}
+    \item Recoger el número de células de cultivo deseado.
+    \item Centrifugar en eppendorf si es posible en minifuga a 4000 rpm durante 5 min. Si no es posible, centrifugar en tubo de cristal en centrífuga de cultivos a 1500 rpm durante 5 min.
+    \item Eliminar SN con mucho cuidado para no levantar el pellet.
+    \item Resuspender en 100 $\mu$L de tampón A (también se puede en 50 $\mu$L de cara a no tener tanto volumen para WB. Incubar durante 15 min en hielo.
+    \\
+    Tampón A:
+    \begin{itemize}
+        \item 10 mM HEPES, pH = 7.9.
+        \item 10 mM KCl.
+        \item 0.1 mM EDTA.
+        \item 0.1 mM EGTA.
+        \item 0.5 mM PMSF.
+    \end{itemize}
+    \item Añadir 6.25 $\mu$L de NP-40 10 \% y mezclar bien pero con cuidado para no romper los núcleos. En el caso de haber utilizado 50 $\mu$L de tampón A, 6 $\mu$L de NP-40 10 \% es suficiente.
+    \item Inmediatamente centrifugar a 13.000 rpm durante 5 min para pelletear los núcleos.
+    \item Recoger el SN, que se corresponde al WCL sin núcleos.
+\end{itemize}
+
+\end{document}
