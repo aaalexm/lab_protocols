@@ -1,11 +1,8 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{enumerate}
-% Al subrayar con el comando \hl{} teniendo estos paquetes, se pone en amarillo. Si subrayamos con el comando \underline{} subraya normal.
 \usepackage{xcolor}
 \usepackage{soul}
-
-% Para seleccionar los márgenes.
 \usepackage[a4paper]{geometry}
 \geometry{top=2cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
 
@@ -14,19 +11,18 @@
 
 \begin{document}
 
-% Para poner el título al tamaño deseado.
 \font\myfont=cmr12 at 32pt
-\title{{\myfont Método de eliminación nuclear}}
+\title{{\myfont Nuclear removal protocol}}
 
 \maketitle
 
 \begin{itemize}
-    \item Recoger el número de células de cultivo deseado.
-    \item Centrifugar en eppendorf si es posible en minifuga a 4000 rpm durante 5 min. Si no es posible, centrifugar en tubo de cristal en centrífuga de cultivos a 1500 rpm durante 5 min.
-    \item Eliminar SN con mucho cuidado para no levantar el pellet.
-    \item Resuspender en 100 $\mu$L de tampón A (también se puede en 50 $\mu$L de cara a no tener tanto volumen para WB. Incubar durante 15 min en hielo.
+    \item Harvest the desired number of cells.
+    \item Spin 4000 rpm for 5 min. If spin in eppendorf tube is not possible, spin in glass tube 1500 rpm for 5 min.
+    \item Remove SN carefully to not take any pellet debris.
+    \item Resuspend in 100 $\mu$L of Buffer A (it can be done in 50 $\mu$L as well if low volume is desired (i.e.for WB). Incubate in ice for 15 min.
     \\
-    Tampón A:
+    Buffer A:
     \begin{itemize}
         \item 10 mM HEPES, pH = 7.9.
         \item 10 mM KCl.
@@ -34,9 +30,9 @@
         \item 0.1 mM EGTA.
         \item 0.5 mM PMSF.
     \end{itemize}
-    \item Añadir 6.25 $\mu$L de NP-40 10 \% y mezclar bien pero con cuidado para no romper los núcleos. En el caso de haber utilizado 50 $\mu$L de tampón A, 6 $\mu$L de NP-40 10 \% es suficiente.
-    \item Inmediatamente centrifugar a 13.000 rpm durante 5 min para pelletear los núcleos.
-    \item Recoger el SN, que se corresponde al WCL sin núcleos.
+    \item Add 6.25 $\mu$L de NP-40 10 \% and mix gently not to break the nucleus. In case 50 $\mu$L of Buffer A was used, 6 $\mu$L of NP-40 10 \% will be fine.
+    \item Spin immediately at 13.000 rpm for 5 min to pellet nucleus.
+    \item Collect SN, that corresponds to WCL without nucleus.
 \end{itemize}
 
 \end{document}
